@@ -1,0 +1,170 @@
+ @media only screen and (min-width: 1000px){
+    body {
+        font-family: 'Lexend Deca', sans-serif;
+        color: hsl(0, 0%, 95%);
+    }
+
+    .main-content {   
+        display: flex;
+        width: 70%; 
+        margin: 5em auto; 
+    }
+
+    .article-1 {
+        position: relative;
+        width: 33.3%;
+        height: 400px;
+        padding: 3em;
+        margin: 0;
+        overflow: hidden;
+        background-color: hsl(31, 77%, 52%);
+        border-bottom-left-radius: 0.5em;
+        border-top-left-radius: 0.5em;
+    }
+
+    .article-2 {
+        position: relative;
+        width: 33.3%;
+        padding: 3em;    
+        overflow: hidden;
+        background-color: hsl(184, 100%, 22%);
+    }
+
+    .article-3 {
+        position: relative;
+        width: 33.3%;
+        padding: 3em;
+        overflow: hidden;
+        background-color: hsl(179, 100%, 13%);
+        border-bottom-right-radius: 0.5em;
+        border-top-right-radius: 0.5em;
+    } 
+
+    .title {
+        font-size: 2.5em;
+        font-family: 'Big Shoulders Display', cursive;
+    }
+
+    .para {
+        width: 93%;
+        overflow: auto;
+        line-height: 1.5em;
+        color: hsla(0, 0%, 100%, 0.75);
+        margin: 0 0 5em 0;
+    }
+
+    .link {
+        font-size: 1em;
+        box-sizing: border-box;
+        display: inline-block;
+        padding: 0.7em 1.5em;
+        position: absolute;
+        bottom: 3em;
+        text-decoration: none;
+        background-color: hsl(0, 0%, 95%);
+        border: 0.2em solid hsl(0, 0%, 95%);
+        border-radius: 5em;
+    }
+
+    .link-1 {
+        color: hsl(31, 77%, 52%);
+    }
+    .link-1:hover {
+        border: 0.2em solid hsl(0, 0%, 95%);
+        color: hsl(0, 0%, 95%);
+        background-color: hsl(31, 77%, 52%);
+    }
+
+    .link-2 {
+        color: hsl(184, 100%, 22%);
+    }
+    .link-2:hover {
+        border: 0.2em solid hsl(0, 0%, 95%);
+        color: hsl(0, 0%, 95%);
+        background-color: hsl(184, 100%, 22%);
+    }
+
+    .link-3 {
+        color: hsl(179, 100%, 13%);
+    }
+    .link-3:hover {
+        border: 0.2em solid hsl(0, 0%, 95%);
+        color: hsl(0, 0%, 95%);
+        background-color: hsl(179, 100%, 13%)
+    }
+ }
+
+
+@media only screen and (max-width: 1000px){
+    body {
+        font-family: 'Lexend Deca', sans-serif;
+        color: hsl(0, 0%, 95%);
+    }
+
+    .main-content {
+        overflow: hidden;
+        width: 90%;
+        margin: 5em auto;
+    }
+
+    .article-1 {
+        padding: 3em;
+        overflow: hidden;
+        background-color: hsl(31, 77%, 52%);
+        border-top-right-radius: 0.5em;
+        border-top-left-radius: 0.5em;
+    }
+
+    .article-2 {
+        padding: 3em;
+        overflow: hidden;
+        background-color: hsl(184, 100%, 22%);
+    }
+
+    .article-3 {
+        padding: 3em;
+        overflow: hidden;
+        background-color: hsl(179, 100%, 13%);
+        border-bottom-right-radius: 0.5em;
+        border-bottom-left-radius: 0.5em;
+    }
+
+    .title {
+        font-size: 2.5em;
+        font-family: 'Big Shoulders Display', cursive;
+    }
+
+    .para {
+        line-height: 1.5em;
+        color: hsla(0, 0%, 100%, 0.75);
+        padding-bottom: 1em;
+        margin: 0 0 1em 0;
+    }
+    
+    .link {
+        display: inline-block;
+        padding: 1em 2em;
+        text-decoration: none;
+        background-color: hsl(0, 0%, 95%);
+        border-radius: 5em;
+    }
+    
+    .link-1 {
+        color: hsl(31, 77%, 52%);
+    }
+
+    .link-2 {
+        color: hsl(184, 100%, 22%);
+    }
+
+    .link-3 {
+        color: hsl(179, 100%, 13%);
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; color: black;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* 
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
